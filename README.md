@@ -56,7 +56,7 @@ This project focuses on implementing and understanding Kubernetes infrastructure
 
 ## Roadmap
 
-!(/home/youssef/Desktop/inception/bonus/IOT.png)
+(/home/youssef/Desktop/inception/bonus/IOT.png)
 
 ## Part 1: K3s and Vagrant
 
