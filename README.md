@@ -56,7 +56,7 @@ This project focuses on implementing and understanding Kubernetes infrastructure
 
 ## Roadmap
 
-![Roadmap](./bonus/IOT.png)
+<img src="./bonus/IOT.png">
 
 ## Part 1: K3s and Vagrant
 
