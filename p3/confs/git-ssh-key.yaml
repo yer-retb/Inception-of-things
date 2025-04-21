@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+
+# git ssh key
+  name: git-ssh-key
+  namespace: argocd
