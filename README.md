@@ -56,7 +56,7 @@ This project focuses on implementing and understanding Kubernetes infrastructure
 
 ## Roadmap
 
-<img src="./bonus/IOT.png">
+<img src="./bonus/IOT.png"/>
 
 ## Part 1: K3s and Vagrant
 
@@ -64,12 +64,13 @@ This part involves setting up two virtual machines using Vagrant and installing 
 
 ### Configuration Details
 
-- **Server Node**: 
+- **Server Node**:
+
   - Hostname: `yer-retbS`
   - IP Address: 192.168.56.110
   - Role: K3s Server (Controller)
 
-- **Worker Node**: 
+- **Worker Node**:
   - Hostname: `yer-retbSW`
   - IP Address: 192.168.56.111
   - Role: K3s Agent
@@ -87,7 +88,7 @@ In this part, a single VM runs three web applications that are accessible throug
 
 ### Configuration Details
 
-- **Server**: 
+- **Server**:
   - Hostname: `yer-retbS`
   - IP Address: 192.168.56.110
   - Applications:
@@ -207,19 +208,23 @@ kubectl get pods -n gitlab
 ### Common Issues:
 
 1. **VM Networking Problems**:
+
    - Ensure VirtualBox network interfaces are configured correctly
    - Check that IP addresses don't conflict with existing network configurations
 
 2. **K3s Installation Failures**:
+
    - Verify system requirements are met
    - Check logs with `sudo journalctl -u k3s`
 
 3. **Application Deployment Issues**:
+
    - Verify YAML syntax in manifests
    - Check pod status with `kubectl describe pod <pod-name>`
    - Examine container logs with `kubectl logs <pod-name>`
 
 4. **Ingress Problems**:
+
    - Ensure /etc/hosts is configured for local domain resolution
    - Verify Ingress controller is running properly
 
